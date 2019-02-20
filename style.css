@@ -57,6 +57,11 @@ body {
     padding-top: 2px;
 }
 
+.contentBody div a{
+    color: black;
+    text-decoration: none;
+}
+
 .timelineItem {
     display: grid;
     grid-template-columns: 1fr 5fr;

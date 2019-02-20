@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
 * {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Asap', sans-serif;
 }
 
 body {
@@ -23,6 +25,11 @@ body {
     grid-template-columns: 1fr;
 }
 
+.detail{
+    padding: 10px;
+    padding-left: 0;
+}
+
 .detail .mainHeading {
     font-size: 1.5em;
     font-weight: 800;
@@ -31,8 +38,10 @@ body {
 
 .detail .mainHeading::after {
     content: ' ';
+    padding-top: 5px;
+    display: block;
     width: 100%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #eeee;
 }
 
 .contentBody div {
